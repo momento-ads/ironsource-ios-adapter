@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'ISMomentoCustomAdapter-iOS/Classes/**/*'
-  s.resources = 'ISMomentoCustomAdapter-iOS/Resources/**/*'
+  s.resources = 'ISMomentoCustomAdapter-iOS/Assets/**/*'
   s.static_framework = true
   
   s.dependency 'Momento_iOS'

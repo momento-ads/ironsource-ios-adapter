@@ -12,7 +12,7 @@ import IronSource
 @objc(ISMomentoCustomAdapter)
 public class ISMomentoCustomAdapter: ISBaseNetworkAdapter {
     
-    var customAdapterVersion: String = "0.0.1"
+    var customAdapterVersion: String = "0.0.2"
     
     public override func `init`(_ adData: ISAdData!, delegate: ISNetworkInitializationDelegate!) {
         // Error-Handling 코드가 추가된 경우 delegate.onInitDidFailWithErrorCode(<#T##errorCode: Int##Int#>, errorMessage: <#T##String?#>) 추가 구현 필요.

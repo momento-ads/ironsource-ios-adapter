@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'ISMomentoCustomAdapter-iOS_Example' do
+  pod 'ISMomentoCustomAdapter-iOS', :path => '../'
+
+  pod 'Momento_iOS', :git => 'https://github.com/momento-ads/momento-ios-sdk.git'
+  pod 'IronSourceSDK'
+
+  target 'ISMomentoCustomAdapter-iOS_Tests' do
+    inherit! :search_paths
+  end
+end

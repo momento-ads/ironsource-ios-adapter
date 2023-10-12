@@ -1,0 +1,6 @@
+framework module ISMomentoCustomAdapter_iOS {
+  umbrella header "ISMomentoCustomAdapter-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

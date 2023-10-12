@@ -1,0 +1,35 @@
+PODS:
+  - IronSourceSDK (7.5.0.0)
+  - ISMomentoCustomAdapter-iOS (0.0.1):
+    - IronSourceSDK
+    - Momento_iOS
+  - Momento_iOS (1.0.4)
+
+DEPENDENCIES:
+  - IronSourceSDK
+  - ISMomentoCustomAdapter-iOS (from `../`)
+  - Momento_iOS (from `https://github.com/momento-ads/momento-ios-sdk.git`)
+
+SPEC REPOS:
+  trunk:
+    - IronSourceSDK
+
+EXTERNAL SOURCES:
+  ISMomentoCustomAdapter-iOS:
+    :path: "../"
+  Momento_iOS:
+    :git: https://github.com/momento-ads/momento-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  Momento_iOS:
+    :commit: 18b73dfba8f729594701b08e172eae3dd10220e7
+    :git: https://github.com/momento-ads/momento-ios-sdk.git
+
+SPEC CHECKSUMS:
+  IronSourceSDK: e1fdf5a47699558742d0baaa70ca6f508e0fa786
+  ISMomentoCustomAdapter-iOS: 8e380bb7fbbff9c989ca40771f9fdde89f6273d0
+  Momento_iOS: 98373c1fb28df9057d0c29143d23eec72c675482
+
+PODFILE CHECKSUM: b9e21af46c61fac853eb5c0f9a140d6128d5756a
+
+COCOAPODS: 1.12.1

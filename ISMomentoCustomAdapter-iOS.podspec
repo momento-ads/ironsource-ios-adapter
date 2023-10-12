@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ISMomentoCustomAdapter-iOS'
-  s.version          = '0.0.3'
+  s.version          = '1.0.0'
   s.summary          = 'IronSource X Momento Custom Adapter'
   s.homepage         = 'https://github.com/momento-ads/ironsource-ios-adapter'
 

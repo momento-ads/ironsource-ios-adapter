@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ISMomentoCustomAdapter-iOS'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'IronSource X Momento Custom Adapter'
   s.homepage         = 'https://github.com/momento-ads/ironsource-ios-adapter'
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'ISMomentoCustomAdapter-iOS/Classes/**/*'
-  s.resources = 'ISMomentoCustomAdapter-iOS/Assets/**/*'
+#  s.resources = 'ISMomentoCustomAdapter-iOS/Assets/**/*'
   s.static_framework = true
   
   s.dependency 'Momento_iOS'
